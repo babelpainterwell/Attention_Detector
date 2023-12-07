@@ -71,7 +71,7 @@ These results indicate fluctuations in training and validation accuracy, suggest
 
 ## Real-Time Detection
 
-- By leveraging OpenCV, our system can operate in real-time to determine whether a person is focused on the camera. When attention is detected, a green block appears on the screen.
+- By leveraging OpenCV, my system can operate in real-time to determine whether a person is focused on the camera. When attention is detected, a green block appears on the screen.
   **check the real_time_detection.ipynb file for this functionality**
 
 ![Test3](images/result4.png)
