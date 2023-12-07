@@ -1,4 +1,4 @@
-# Enhancing AI-Human Interaction: Introducing the Eye Contact Recognition ModelEnhancing AI-Human Interaction: Introducing the Eye Contact Recognition Model
+# Enhancing AI-Human Interaction: Introducing the Eye Contact Recognition Model
 
 ## Background:
 
