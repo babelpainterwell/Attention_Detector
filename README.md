@@ -33,10 +33,6 @@ This project leverages the extensive **Columbia Gaze Data Set**, currently one o
 
 Each subject is captured in various combinations of five horizontal head poses (0°, ±15°, ±30°) and seven horizontal (0°, ±5°, ±10°, ±15°) plus three vertical gaze directions (0°, ±10°). The dataset includes a specific focus on 'gaze locking' images for each subject across different head poses.
 
-### Collection Procedure
-
-The images were taken using a Canon EOS Rebel T3i camera and Canon EF-S 18–135 mm IS zoom lens. Subjects were positioned against a black background, facing a grid of dots for consistent gaze and head pose alignment. A chin rest helped stabilize the head, ensuring accurate gaze direction capture. The meticulous collection process included capturing multiple images per gaze direction and selecting the best one for clarity and accuracy.
-
 ![Dataset](images/dataset.png)
 
 ## Solution & Results
