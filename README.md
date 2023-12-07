@@ -83,8 +83,6 @@ These results indicate fluctuations in training and validation accuracy, suggest
 
 ## Reference
 
-For more information on the foundational concepts used in this project, refer to the following academic paper:
-
 **Gaze Locking: Passive Eye Contact Detection for Human-Object Interaction**  
 Authors: B.A. Smith, Q. Yin, S.K. Feiner, and S.K. Nayar  
 Published in: ACM Symposium on User Interface Software and Technology (UIST), October 2013  
