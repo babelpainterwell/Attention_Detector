@@ -18,6 +18,10 @@ This project introduces an innovative approach to AI-human interactions. I've de
 
 ## Datasets
 
+This project leverages the extensive **Columbia Gaze Data Set**, currently one of the largest publicly available gaze datasets. Check the Reference section below for more info about this dataset and its creators.
+
+![Dataset1](images/dataset1.png)
+
 ### Detailed Statistics
 
 - **Number of Images**: 5,880
