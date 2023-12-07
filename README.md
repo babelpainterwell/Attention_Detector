@@ -18,7 +18,7 @@ This project introduces an innovative approach to AI-human interactions. I've de
 
 ## Datasets
 
-This project leverages the extensive **Columbia Gaze Data Set**, currently one of the largest publicly available gaze datasets. Check the Reference section below for more info about this dataset and its creators.
+This project leverages the extensive **Columbia Gaze Data Set**, currently one of the largest publicly available gaze datasets.
 
 ![Dataset1](images/dataset1.png)
 
@@ -80,11 +80,3 @@ These results indicate fluctuations in training and validation accuracy, suggest
 
 ![Test3](images/result4.png)
 ![Test4](images/result5.png)
-
-## Reference
-
-**Gaze Locking: Passive Eye Contact Detection for Human-Object Interaction**  
-Authors: B.A. Smith, Q. Yin, S.K. Feiner, and S.K. Nayar  
-Published in: ACM Symposium on User Interface Software and Technology (UIST), October 2013  
-Pages: 271-280  
-Resources: [PDF](http://www.cs.columbia.edu/~brian/publications/gaze_locking.html) | [BibTeX](http://www1.cs.columbia.edu/CAVE/publications/pub_bibtex.php?id=324) | [Copyright Info](http://www1.cs.columbia.edu/CAVE/publications/copyright.html) | [Project Page](http://www.cs.columbia.edu/CAVE/projects/gaze_locking/)
