@@ -39,7 +39,35 @@ The images were taken using a Canon EOS Rebel T3i camera and Canon EF-S 18–135
 
 ![Dataset](images/dataset.png)
 
-## Results
+## Solution & Results
+
+### Data Augmentation and Preparation
+
+I use the `ImageDataGenerator` class from Keras for preparing the training and validation datasets. The configuration is as follows:
+
+### Model Architecture
+
+The model utilizes the VGG16 architecture with the following additional layers:
+
+- `GlobalMaxPooling2D`
+- `Dense` layer with 2048 neurons, activation='relu'
+- `Dense` layer with 1 neuron, activation='sigmoid'
+
+The model is compiled with the following settings:
+
+- Loss Function: Binary Crossentropy
+- Optimizer: RMSprop with a learning rate of 1e-6
+- Metrics: Accuracy
+
+### Training Process
+
+The model was trained for 500 epochs. The performance towards the end of the training is as follows:
+
+- **Epoch 500:**
+  - Training Accuracy: 78.91%
+  - Validation Accuracy: 81.21%
+
+These results indicate fluctuations in training and validation accuracy, suggesting the need for further hyperparameter tuning and potentially more sophisticated data augmentation strategies.
 
 ![Loss&Accuracy](images/result1.png)
 ![Test1](images/result2.png)
