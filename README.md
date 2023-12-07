@@ -18,16 +18,43 @@ This project introduces an innovative approach to AI-human interactions. I've de
 
 ## Datasets
 
+### Detailed Statistics
+
+- **Number of Images**: 5,880
+- **Number of Subjects**: 56 (32 male, 24 female)
+- **Ethnic Diversity**: 21 Asian, 19 White, 8 South Asian, 7 Black, 4 Hispanic or Latino
+- **Age Range**: 18 - 36 years
+- **Subjects with Glasses**: 21
+- **Image Resolution**: 5,184 x 3,456 pixels
+
+Each subject is captured in various combinations of five horizontal head poses (0°, ±15°, ±30°) and seven horizontal (0°, ±5°, ±10°, ±15°) plus three vertical gaze directions (0°, ±10°). The dataset includes a specific focus on 'gaze locking' images for each subject across different head poses.
+
+### Collection Procedure
+
+The images were taken using a Canon EOS Rebel T3i camera and Canon EF-S 18–135 mm IS zoom lens. Subjects were positioned against a black background, facing a grid of dots for consistent gaze and head pose alignment. A chin rest helped stabilize the head, ensuring accurate gaze direction capture. The meticulous collection process included capturing multiple images per gaze direction and selecting the best one for clarity and accuracy.
+
+![Dataset](images/dataset.png)
+
 ## Results
 
 ![Loss&Accuracy](images/result1.png)
 ![Test1](images/result2.png)
 ![Test2](images/result3.png)
 
-## Notes
+## Real-Time Detection
 
 - By leveraging OpenCV, our system can operate in real-time to determine whether a person is focused on the camera. When attention is detected, a green block appears on the screen.
   **check the real_time_detection.ipynb file for this functionality**
 
 ![Test3](images/result4.png)
 ![Test4](images/result5.png)
+
+## Reference
+
+For more information on the foundational concepts used in this project, refer to the following academic paper:
+
+**Gaze Locking: Passive Eye Contact Detection for Human-Object Interaction**  
+Authors: B.A. Smith, Q. Yin, S.K. Feiner, and S.K. Nayar  
+Published in: ACM Symposium on User Interface Software and Technology (UIST), October 2013  
+Pages: 271-280  
+Resources: [PDF](http://www.cs.columbia.edu/~brian/publications/gaze_locking.html) | [BibTeX](http://www1.cs.columbia.edu/CAVE/publications/pub_bibtex.php?id=324) | [Copyright Info](http://www1.cs.columbia.edu/CAVE/publications/copyright.html) | [Project Page](http://www.cs.columbia.edu/CAVE/projects/gaze_locking/)
