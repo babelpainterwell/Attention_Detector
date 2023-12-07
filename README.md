@@ -2,14 +2,32 @@
 
 ## Background:
 
-In today's age of voice-activated personal assistants, interactions can sometimes feel unnatural. A significant part of this is the inherent lack of nuance and depth in these digital dialogues. While vocal cues like “Hey Siri” have been the mainstream method to initiate interactions, they can occasionally be cumbersome and don't necessarily guarantee an immediate response. The essence of natural human communication goes beyond just spoken words; our body language, and particularly our eyes, convey potent signals.
+Nowadays, we use voice commands like “Hey Siri” to talk to machines. But these chats can feel a bit odd because they're missing the natural way people talk to each other. When we talk to people, we don't just use words; we also use our eyes and body language.
 
 ## The Problem:
 
-AI agents currently lack the perceptiveness of understanding a foundational aspect of human interaction - eye contact. When one person looks at another, a silent yet powerful exchange takes place. This gaze signifies intent, anticipation, and sometimes, an invitation to converse. By not tapping into this non-verbal channel, we're missing out on an element that can significantly enhance AI and human interaction.
+Most smart machines today can't understand when someone is looking at them. Eye contact is a big part of how we communicate without speaking. We look at each other to show we're interested or ready to talk. By not noticing when someone looks at them, machines miss a big chance to chat in a more friendly way.
 
 ## Objective and Solution:
 
-With the aim to bridge this gap, this project introduces a novel approach to AI-human interaction. I've developed a computer vision model based on the VGG16 architecture. Its primary function is to discern whether an individual is establishing eye contact with the machine. By integrating this mechanism, AI agents can now "perceive" when someone is looking at them, paving the way for more intuitive, prompt, and natural conversations.
+This project introduces an innovative approach to AI-human interactions. I've developed a human attention detector leveraging a binary image classifier built on the VGG16 architecture. This model is adept at detecting whether an individual is making eye contact with the device.
 
-Through this initiative, we aspire to redefine the way we communicate with artificial intelligence, ensuring a blend of verbal, physical, and now, visual cues, to create a richer and more holistic communication experience.
+- **Architecture:** Utilizing VGG16, a robust architecture in computer vision, for transfer learning.
+- **Extensive Training:** The model underwent 500 epochs of training on diverse datasets featuring various head poses and gaze directions.
+- **Enhanced Accuracy:** Implementation of regression techniques (eventually used mediapipe for best accuracy) for precise localization of the eye area, achieving 83% validation accuracy.
+
+## Datasets
+
+## Results
+
+![Loss&Accuracy](images/result1.png)
+![Test1](images/result2.png)
+![Test2](images/result3.png)
+
+## Notes
+
+- By leveraging OpenCV, our system can operate in real-time to determine whether a person is focused on the camera. When attention is detected, a green block appears on the screen.
+  **check the real_time_detection.ipynb file for this functionality**
+
+![Test3](images/result4.png)
+![Test4](images/result5.png)
